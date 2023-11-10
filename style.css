@@ -11,8 +11,10 @@ body{
     text-align: center;
     color: rgb(0, 0, 0);
     width: 400px;
-    background: rgba(255, 255, 255, 0.943);
+    
+
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
     backdrop-filter: blur( 10px );
     -webkit-backdrop-filter: blur( 10px );
     border-radius:10%;
@@ -21,18 +23,14 @@ body{
   }
   .profile_img{
     margin:0 auto;
-    border-radius: 25%;
+    border-radius: 55%;
     width: 250px;
     height: 250px;
     border: 1px solid rgba(0, 0, 0, 0.623);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.826);
-
   }
 
-  .title {
-    color: grey;
-    font-size: 18px;
-  }
+  
 
   button {
     border: none;
@@ -129,4 +127,3 @@ body{
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
-  
